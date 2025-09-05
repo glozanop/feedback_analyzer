@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "User Interface & Performance",
+    "week_timestamp": "2025-07-13T00:00:00+00:00",
+    "count": 6,
+    "total_feedback": 6,
+    "negative_ratio": 1.0,
+    "mean_count": 3.2,
+    "methods_detected": [
+      "IQR",
+      "Z-score"
+    ],
+    "confidence": 0.5,
+    "severity": 1.83,
+    "iqr_threshold": 4.2
+  }
+]

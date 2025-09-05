@@ -1,0 +1,5 @@
+Step 1 run a server in python
+python3 -m http.server 8000
+
+Step 2: open the html from the lcoal server
+http://localhost:8000/index.html

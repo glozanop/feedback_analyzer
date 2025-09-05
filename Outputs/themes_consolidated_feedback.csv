@@ -1,0 +1,261 @@
+id,customer_id,created_at,message,concise_theme,sentiment,theme_category
+87485d65-56d3-4cd5-9667-5421ef7607a0,cust_00056,2025-06-14 02:39:55+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+d704af82-a1cf-4dce-9685-bb53a818cf8c,cust_00781,2025-06-14 07:32:43+00:00,Customer support was super helpful.,Helpful customer support,Positive,Notifications & Support
+696393b6-b3db-4622-8841-67f49ca27a6a,cust_00269,2025-06-14 08:14:43+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+a4f49e7a-88ce-45aa-ae45-af6a2773967a,cust_00225,2025-06-14 12:54:13+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+39984937-8702-41c4-8dcb-a619e8474d34,cust_00694,2025-06-14 21:52:51+00:00,The new UI looks clean and easy to use.,New UI clean and easy,Positive,User Interface & Performance
+14040265-b6de-42e0-bd78-02c017fa57cd,cust_00855,2025-06-14 22:30:55+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+f5081c3c-6a2a-4343-b6f1-a474182cfeaf,cust_00498,2025-06-15 10:22:17+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+4a094a5f-5497-40fc-8114-c1069df29959,cust_00686,2025-06-15 23:28:19+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+314d119a-fe72-4435-93fb-57496ca262c5,cust_00787,2025-06-16 08:53:55+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+c22b094e-4396-4e3d-9be7-5de3a2192d72,cust_00625,2025-06-16 10:17:41+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+0fa25f1f-5de9-42f0-bd8d-4ad22d2edc24,cust_00473,2025-06-16 15:08:08+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+f477818c-fa7f-4d38-a05b-ac0633f7c198,cust_00028,2025-06-16 21:24:57+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+f4c5de33-aac3-49f7-8336-8c5ca3ec8d36,cust_00437,2025-06-17 00:34:10+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+55e6b834-c6b9-41b3-9bd8-1e8a68bd5670,cust_00806,2025-06-17 17:07:44+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+5cd5e5c0-b6ff-4c30-8917-2078eeae28e4,cust_00579,2025-06-17 20:35:17+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+c4cbdf34-ed89-4c24-9967-09760d817cff,cust_00659,2025-06-18 05:01:52+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+facfedea-ec00-404a-b882-b7ef3d9f3272,cust_00812,2025-06-18 13:46:20+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+2c3174fd-2661-44fc-9941-f8f36fcbeb55,cust_00046,2025-06-18 22:21:12+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+da96a915-3cde-4802-837d-832790a34d67,cust_00067,2025-06-18 23:41:59+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+ec70f407-c24f-4779-9940-21d6e3b8797f,cust_00411,2025-06-19 10:19:41+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+111f3187-e3c7-4e20-9502-a8d3fa843cca,cust_00073,2025-06-19 17:10:08+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+4b30d93f-c2e3-495f-af69-79ce5dc99d92,cust_00845,2025-06-19 18:57:00+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+4e9a82df-d350-43be-9968-0c9dfe149a50,cust_00213,2025-06-19 20:19:48+00:00,Stuck in an ID verification loop—keeps asking again.,ID verification loop issue,Negative,Identity & Verification Problems
+6705b233-271a-48e7-b73a-952bda9e764b,cust_00522,2025-06-20 17:44:43+00:00,Customer support was super helpful.,Helpful customer support,Positive,Notifications & Support
+82bdfb8f-098c-4a87-b689-7f520c14c4f9,cust_00714,2025-06-21 01:41:07+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+00f16c2f-4688-4c85-b237-ffb8102f346e,cust_00371,2025-06-21 15:36:03+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+6c5153ce-052e-440c-a124-feb35c849607,cust_00692,2025-06-21 18:39:23+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+8288398a-1887-4581-b038-f8914dc2fbf0,cust_00157,2025-06-21 19:44:34+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+ee478172-adc6-42d1-b639-fdeda74ee655,cust_00546,2025-06-22 07:34:13+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+0856d6d6-8952-47e7-9420-803de6738a13,cust_00721,2025-06-22 18:34:56+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+ac7192f8-e2c3-455f-b3d8-6b365b722575,cust_00314,2025-06-23 00:48:48+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+1225f91e-8a13-4bdd-b34b-c4503aeb467d,cust_00112,2025-06-23 13:18:48+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+18a87ea7-1028-4c2b-b2e7-95e42772976e,cust_00136,2025-06-23 16:57:23+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+a55ea2b3-0951-4faf-b5bd-ba2dde14d7f2,cust_00048,2025-06-23 18:10:55+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+88103244-c589-4e42-939d-ba3bf8ef2bac,cust_00033,2025-06-23 22:48:51+00:00,Why does the eslfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+434e0219-033b-4e15-bdf2-ee8c13689d0f,cust_00110,2025-06-24 01:21:26+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+d99c5c4a-015a-4624-bd11-4ed01b817d7e,cust_00371,2025-06-25 00:48:19+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+2441296b-be06-42f1-98fa-42f07a53d8bf,cust_00263,2025-06-25 02:31:48+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+232bd7e7-b3e1-49fe-83d7-d4a340a25187,cust_00111,2025-06-25 02:51:51+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+cb9fdb45-0a42-4d5c-84e9-30a37da5224b,cust_00232,2025-06-25 04:20:53+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+b333fb33-e939-4189-9595-6641bb708216,cust_00272,2025-06-25 04:44:56+00:00,Customer support was super helpful.,Helpful customer support,Positive,Notifications & Support
+9784d108-b8b4-4766-9af5-01b58458feba,cust_00845,2025-06-25 06:06:00+00:00,The new UI looks clean and easy to use.,New UI clean and easy,Positive,User Interface & Performance
+70054b2f-eda4-474b-a00a-ab29d07bea3f,cust_00603,2025-06-25 17:56:36+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+702441ec-d118-440a-a3a7-1ce5a346129b,cust_00658,2025-06-25 20:38:09+00:00,The new UI lokos clean and easy to use.,New UI easy to use,Positive,User Interface & Performance
+5a0a3a8d-507d-4b0b-a066-e6282e4cade0,cust_00683,2025-06-26 02:22:52+00:00,Verification failed 3 times—what should I do?,Verification failed multiple times,Negative,Identity & Verification Problems
+3ee730bb-ff32-4789-97a1-272527aa4604,cust_00170,2025-06-26 05:01:35+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+fe39315b-6efe-4852-a3d6-fd1a13c23a25,cust_00213,2025-06-26 05:24:26+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+cf888eb3-5740-4854-bbdd-d71d26b7d71f,cust_00103,2025-06-26 06:09:30+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+f13287ca-83f6-4c3b-b21a-bd0f5f7ec318,cust_00013,2025-06-26 06:14:09+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+9bb9c30e-f9a4-4358-bf62-84473a172d83,cust_00426,2025-06-26 18:11:42+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+1e6feb62-efa1-4fec-87bd-687db53e33bc,cust_00017,2025-06-26 19:06:25+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+953dade6-d599-4fab-a67c-260b82ecfd15,cust_00812,2025-06-28 03:11:07+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+bb4f3463-3123-462b-9e38-36295933d2de,cust_00088,2025-06-28 17:31:58+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+6f052e7f-b4e5-424e-8d0d-4891d900fba5,cust_00631,2025-06-29 00:02:52+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+59f35fe8-edd5-4109-81be-0665fd75f520,cust_00594,2025-06-29 00:41:09+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+c4549767-f441-43d8-b342-26fa7e9c6f95,cust_00614,2025-06-29 16:25:11+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+dd38ddc6-dee0-47d8-9551-f9055de9ed75,cust_00575,2025-06-29 16:29:47+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+27a69d9a-7a39-4ca7-81e7-d3c98afe63ff,cust_00026,2025-06-29 18:38:23+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+ba2570d2-bbc7-4ac5-9d2a-a190b9fc0516,cust_00539,2025-06-30 22:00:23+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+15fdebd6-d6df-4d1a-be33-275d27d70a08,cust_00375,2025-07-01 01:15:15+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+45879268-0efe-4f31-a86a-6f2d9bcac22b,cust_00571,2025-07-01 01:49:44+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+84b88b9b-b13f-422a-a0f0-e689bd32c232,cust_00306,2025-07-01 08:16:20+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+9abf657e-a377-498f-9a92-ca18a43f1693,cust_00422,2025-07-01 09:55:26+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+b89f8868-fcbd-489f-b7df-da6e6ca238ab,cust_00392,2025-07-01 11:32:46+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+65b580c5-28dc-45fb-a1b9-e66812a40c02,cust_00466,2025-07-01 15:26:33+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+b0a12122-3df6-4560-9536-b7adb79663c8,cust_00078,2025-07-01 19:32:29+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+8d27938f-237b-4fa7-a81f-1d57a3a566d7,cust_00604,2025-07-01 23:24:49+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+be803787-f6aa-4093-aa2b-064e50e2e62d,cust_00641,2025-07-02 05:04:56+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+13d38c44-8bb0-4237-b7f4-010a5d853d8e,cust_00240,2025-07-02 07:34:30+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+f7d30b97-423b-448f-9007-10cdaa56516c,cust_00704,2025-07-02 10:53:56+00:00,Requirements seem too strict for samll advances.,Strict advance requirements,Negative,Advance Application & Criteria
+e3359f5f-0da2-4f75-a988-db7c370cd1f4,cust_00707,2025-07-02 16:44:14+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+8a54f048-bb13-4999-90ec-8892738d21cb,cust_00841,2025-07-03 09:01:18+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+1c34dbdc-9e9b-4def-8f62-39342b85688a,cust_00176,2025-07-04 08:10:12+00:00,Stuck in an ID verification loop—keeps asking again.,ID verification loop issue,Negative,Identity & Verification Problems
+d3fe44e4-7abd-4bd1-96f7-f92468be7d0e,cust_00659,2025-07-04 15:26:20+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+aedaefa1-71c7-403e-b414-845cb8ae9161,cust_00310,2025-07-05 11:48:22+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+6b90cc40-e75a-4eba-99e7-5df1c802c8e9,cust_00074,2025-07-05 19:49:38+00:00,Verification failed 3 times—what should I do?,Verification failed multiple times,Negative,Identity & Verification Problems
+9b31283d-457c-41ae-a6f5-7685d392cff0,cust_00130,2025-07-06 02:03:27+00:00,I keep getting denied without explnaation.,Denied without explanation,Negative,Advance Application & Criteria
+f5b9a116-7015-4293-a8af-fd828af3b552,cust_00286,2025-07-06 02:19:09+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+924542f6-c1ac-400e-8574-945195baad81,cust_00683,2025-07-06 13:01:17+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+2fb31dfb-9f52-42cb-920e-d6d722f1d833,cust_00151,2025-07-06 19:16:00+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+c091972e-d0e5-4e62-86a3-5dbc6b61d7ae,cust_00609,2025-07-06 20:02:53+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+eeae6e89-5b2f-4998-8d55-cb45b3933922,cust_00717,2025-07-07 00:42:45+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+7efecd47-c742-4d3c-a1e0-8dd55579b200,cust_00247,2025-07-07 10:23:01+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+594b0c17-344d-4b1f-a8a5-598bbd19a7a7,cust_00389,2025-07-07 16:13:34+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+93934003-0282-4ee7-827f-eb7e074c3d96,cust_00462,2025-07-07 20:01:42+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+1dc9c18d-6c35-49c1-ab96-1b77d62081e0,cust_00534,2025-07-08 00:05:37+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+5c162e61-1229-44d9-989b-f1a9f6f46644,cust_00810,2025-07-08 02:18:36+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+4b88648c-acd3-4628-8993-07a1d46e63e0,cust_00433,2025-07-08 03:23:40+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+85d7e5e4-5d3a-4011-99c1-597d0f2b774c,cust_00821,2025-07-08 04:39:26+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+0b9e1b64-7d1c-46c3-a483-1c2302b7e921,cust_00643,2025-07-08 07:59:09+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+f65ef867-852f-4966-84dc-99307b75b933,cust_00027,2025-07-08 08:02:59+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+d6cea13e-81d3-49fa-b2b6-edd49bf33c0b,cust_00388,2025-07-09 16:21:41+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+6e99dd55-eda8-4aeb-946d-ef3e858f17e7,cust_00217,2025-07-09 17:36:36+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+3fd44d46-59fc-483a-89db-3cbfd1953896,cust_00323,2025-07-09 23:51:53+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+1970db68-c18a-4a8a-b021-bd5b9dbe5d41,cust_00668,2025-07-10 03:59:22+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+3f48f498-674e-4e7b-b227-baf4cef24361,cust_00715,2025-07-10 15:10:30+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+06fefd87-dcd3-4ba8-b961-f5d2b25542cc,cust_00364,2025-07-10 23:42:31+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+95183176-cf83-4e2c-bed6-7f7d7d836385,cust_00271,2025-07-11 10:45:53+00:00,Can't pass idetnity check; it keeps resetting.,Identity check repeatedly fails,Negative,Identity & Verification Problems
+b6563ad9-d1e7-45fc-8678-308f14461612,cust_00676,2025-07-11 11:02:45+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+86496640-530f-4293-8278-8ef339744497,cust_00554,2025-07-11 17:46:41+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+2340621b-baa4-43ae-999c-a87cb7b2d337,cust_00646,2025-07-11 23:08:23+00:00,The reminders feel spammy.,Spammy advance reminders,Negative,Notifications & Support
+6f861b6d-444b-4cc1-a73c-d82403e7a2ab,cust_00390,2025-07-12 02:18:22+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+0189deab-18b2-4b68-b6bd-ee6b64623a08,cust_00495,2025-07-12 08:04:12+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+0db887a0-2e59-4a5d-88dc-dc43d0229fa9,cust_00580,2025-07-12 15:55:15+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+1437cfab-3214-4c8b-a79e-0b45341cb627,cust_00636,2025-07-12 20:51:58+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+979ec9b2-5240-4f4b-a840-9e7adcbc992b,cust_00468,2025-07-13 01:03:47+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+4e580c45-3ae7-464d-808a-3db900e039db,cust_00577,2025-07-13 03:01:37+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+fb72d0ba-89ae-46bf-b20d-f7be1273f442,cust_00110,2025-07-13 07:58:40+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+237200d6-daab-4946-81ed-57120764509a,cust_00622,2025-07-13 12:03:47+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+385cffca-7dd8-4fd5-a9b1-01fadf7aa0fb,cust_00506,2025-07-13 12:34:01+00:00,Verification failed 3 times—what should I do?,Verification failed multiple times,Negative,Identity & Verification Problems
+1b300ee6-e097-41d9-9361-2941671c8bb9,cust_00081,2025-07-13 20:32:35+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+3b51a716-b11a-42fa-87d9-8873650971b9,cust_00216,2025-07-13 22:16:38+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+0cb04698-896c-4dd6-bec8-69b5e8706e65,cust_00591,2025-07-14 10:54:16+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+88e624f8-5738-46ae-beb0-45b1f152dbfc,cust_00661,2025-07-14 12:05:05+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+8f5be738-f0e8-42e0-8435-ab2d0f84efc8,cust_00857,2025-07-15 07:02:49+00:00,Stuck in an ID verification loop—keeps askign again.,ID verification loop issue,Negative,Identity & Verification Problems
+b20f7392-0046-47f8-bba5-eee58fe632d5,cust_00900,2025-07-15 11:19:18+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+362ebb55-62c8-4db4-b785-1deb84762be4,cust_00442,2025-07-15 11:49:51+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+ebf5c9c3-1ba2-47b3-b0b8-ea29e48013a5,cust_00852,2025-07-15 17:35:21+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+f2634a37-ccd4-4d88-9bd6-fc317c91a941,cust_00325,2025-07-15 21:35:47+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+70e05c9f-ab63-4984-9fca-ed5cdce3b9d8,cust_00330,2025-07-16 06:37:28+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+726ff40e-21ec-4eeb-b0e0-3064214c42f0,cust_00338,2025-07-16 08:38:53+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+fa5a61b0-e51e-48df-9211-95b56ef93832,cust_00218,2025-07-16 15:50:39+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+8422ed35-304a-410a-a57c-bc4712aa6bb1,cust_00619,2025-07-16 16:18:19+00:00,Chime won’t connect evne after multiple tries.,Chime account connection failed,Negative,Account Linking & Chime Issues
+5c0b24ba-66f7-4cad-845f-92cac1ae5c04,cust_00873,2025-07-16 20:53:17+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+610a967d-5595-465e-97ee-cdcacf489018,cust_00258,2025-07-17 06:57:08+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+d47cb39f-0909-4618-9e96-13bd2c99d192,cust_00162,2025-07-17 21:13:58+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+fc8295d5-be73-4d21-86bb-7697046f7fe0,cust_00611,2025-07-18 10:47:07+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+0109fab3-48d1-4375-94af-3cad2f156489,cust_00736,2025-07-19 19:34:17+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+e64cee44-2742-4c34-af8c-e3588897cdbd,cust_00043,2025-07-19 20:19:08+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+ccc3e0f1-b47d-4737-bfee-753aa8ddf632,cust_00843,2025-07-19 23:28:33+00:00,Linking to Chime returns a nerror code 102.,Chime account linking error,Negative,Account Linking & Chime Issues
+13333018-45b7-43f4-8633-b5e794a64291,cust_00803,2025-07-20 19:03:16+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+f1ce26d1-4a0f-4ad9-ae8c-46d141e570c0,cust_00038,2025-07-21 00:18:58+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+8c6759f9-85d9-4728-8d8c-8f80ec50090c,cust_00705,2025-07-21 06:43:04+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+505a9976-605a-4efa-aca0-22784f27d804,cust_00761,2025-07-21 17:35:37+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+6a6d3def-a332-43d6-9ab6-03c57e45c5e3,cust_00753,2025-07-21 20:43:05+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+2a1ca286-6eca-4ec2-87e4-53e61ac3f0c1,cust_00105,2025-07-22 12:15:18+00:00,"Great app, the ubdgeting tips helped me.",Budgeting tips appreciated,Positive,Notifications & Support
+63e9de72-8c81-4cb8-8196-2d6f25b2ab2b,cust_00094,2025-07-22 18:39:14+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+76058f33-15fb-45f9-9a4c-580c377f5b82,cust_00029,2025-07-22 19:18:05+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+5dd77f9c-da9b-4c07-816f-86aebedf3a43,cust_00055,2025-07-22 21:41:57+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+03ba4457-296c-4805-97a4-0bca2b8e5350,cust_00638,2025-07-23 06:06:34+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+9a530be1-8e26-4cc0-8fe9-434c2db01903,cust_00243,2025-07-23 10:54:40+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+f03ca581-2ff4-4233-920d-350f9aafc081,cust_00363,2025-07-23 12:30:06+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+b9ae5e1d-10be-4333-8f56-f1b4d2d5a530,cust_00223,2025-07-23 14:57:44+00:00,Customer support was suepr helpful.,Customer support helpfulness,Positive,Notifications & Support
+c5af3aa3-074b-42d1-a069-d9f4d2f315bd,cust_00197,2025-07-23 15:36:28+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+e93b5baf-d8a7-4b1d-ba41-256611da571e,cust_00831,2025-07-23 21:09:31+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+cc2699b3-5e6e-40d8-95dd-b55bc3aabadc,cust_00411,2025-07-23 23:11:09+00:00,Verification failed 3 times—what should I do?,Verification failed multiple times,Negative,Identity & Verification Problems
+27fc905c-6701-4e9c-a5d3-d75718523270,cust_00003,2025-07-24 06:52:09+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+67e12156-faea-4b9c-9dfb-0f5e2a8e95cd,cust_00179,2025-07-24 19:41:39+00:00,The reminders feel spammy.,Spammy advance reminders,Negative,Notifications & Support
+7acf22d4-ab12-473d-9108-462511aae6d1,cust_00768,2025-07-24 22:18:02+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+ab48af59-00bf-4f32-ae76-2c89eece997b,cust_00662,2025-07-25 02:59:35+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+4edc2bb8-7a9d-4a98-ab25-f052f007f550,cust_00720,2025-07-25 07:28:44+00:00,Thanks for the quick approval yesterday.,Appreciation for quick approval,Positive,Advance Application & Criteria
+118e3f62-dd8c-48c3-84e7-66d084d4ef07,cust_00873,2025-07-26 06:56:43+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+2aad0931-407f-41df-9820-a9fc883a08f1,cust_00696,2025-07-26 07:33:17+00:00,The reminders feel spammy.,Spammy advance reminders,Negative,Notifications & Support
+65d6ccba-5b9f-48ff-863b-0eb8b63c7833,cust_00753,2025-07-26 12:02:07+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+100ee89f-e4a4-4989-b40e-177bccb32716,cust_00827,2025-07-26 13:01:38+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+81b12dc0-cca8-41a8-9ca3-7b9a66655303,cust_00420,2025-07-26 17:58:16+00:00,Chime wont’ connect even after multiple tries.,Chime account connection failed,Negative,Account Linking & Chime Issues
+79cc1ad8-a9ed-4123-8bef-d4a87f3aec66,cust_00135,2025-07-26 22:00:48+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+090fa688-6237-459b-b6b7-cc90418c1857,cust_00447,2025-07-26 22:27:09+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+7c085fe7-cd80-4a32-8748-47ac2e62654b,cust_00562,2025-07-26 23:15:14+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+802d1904-ba5a-4de7-b238-0a04c0b2cb05,cust_00554,2025-07-27 00:33:10+00:00,Performance is worse after the last updat.e,App performance degraded after update,Negative,User Interface & Performance
+0c04369a-fb6d-4fd5-b7a3-b9a97122b27f,cust_00102,2025-07-27 01:08:26+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+22d632c3-de51-41fd-9e25-a9e00b76b683,cust_00770,2025-07-27 07:02:14+00:00,The new UI looks clean and easy to use.,New UI clean and easy,Positive,User Interface & Performance
+b47be703-1501-4967-81fa-dffdd29866e7,cust_00739,2025-07-28 01:17:11+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+5d4d820c-974f-4cf7-9f9b-3dcbfa4f4a04,cust_00843,2025-07-28 03:42:41+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+7bf4b279-b724-4139-82bc-a6051d8eee1b,cust_00499,2025-07-28 04:13:46+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+2637ac57-1901-4017-b73f-a44a86ba8689,cust_00575,2025-07-28 13:11:08+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+d5907d71-b90a-4f6f-be02-231dde567d74,cust_00535,2025-07-28 15:15:13+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+ec2bd933-4f44-4efb-9926-b2254ae253bc,cust_00734,2025-07-28 19:14:05+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support
+5e38663c-1f55-4a32-9c7b-8656092ce553,cust_00774,2025-07-29 02:40:49+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+6863d004-5559-4f1a-ba86-d64fdb052425,cust_00399,2025-07-29 05:39:56+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+97600630-cbb7-41cb-a066-424c97eeaf8f,cust_00012,2025-07-29 10:37:07+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+e3730d85-2f16-4dd4-a1bf-26819a6b6fd9,cust_00196,2025-07-29 20:20:06+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+5afc4491-a37f-46f6-9c69-44d6fac1e6c7,cust_00169,2025-07-30 17:37:47+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+c0309dba-ee84-4ff6-bcf4-cd07e44d7e17,cust_00347,2025-07-30 18:46:12+00:00,Customer support was super helpful.,Helpful customer support,Positive,Notifications & Support
+b00a4cb3-b713-4d5f-8c82-ad2336b70ba3,cust_00731,2025-07-31 01:10:34+00:00,Verification failed 3 times—what should I do?,Verification failed multiple times,Negative,Identity & Verification Problems
+a22502ec-3290-484b-99d6-ccce7d88aba7,cust_00354,2025-07-31 12:55:40+00:00,The app freezes after login on Android.,App freezes after login,Negative,User Interface & Performance
+f5017bf2-2879-4c6b-a363-538c4bbaf77e,cust_00849,2025-07-31 14:14:09+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+487a615e-7312-4a00-9902-985d8f9d875f,cust_00139,2025-07-31 19:52:54+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+50c565a0-28ac-4bd8-a3ef-32208c5d85aa,cust_00236,2025-08-01 05:26:30+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+16fd7a78-885e-4f13-8870-356ad3b135bc,cust_00521,2025-08-01 19:42:34+00:00,Thanks for the quick approval yesterday.,Appreciation for quick approval,Positive,Advance Application & Criteria
+73be6215-8c36-42e8-a8e8-7eae3327a1fc,cust_00291,2025-08-02 15:06:18+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+232182e9-8ad2-4bcc-9f9a-3baa7680c71a,cust_00630,2025-08-02 19:54:52+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+7ae331c9-64f2-4773-a1b3-b10183722a63,cust_00136,2025-08-02 22:03:14+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+722306d5-15c3-43ea-8a66-1f068f058e23,cust_00839,2025-08-03 01:04:24+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+d9209425-5621-4de0-9512-2ae0a1484227,cust_00734,2025-08-03 18:09:19+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+d1f5cd64-07e9-4e4d-8909-35fdc9128d29,cust_00304,2025-08-03 22:28:33+00:00,Stuck in an ID verification loop—keeps asking again.,ID verification loop issue,Negative,Identity & Verification Problems
+0d8eb877-1edb-4c07-9469-e4c317b1516f,cust_00102,2025-08-04 12:16:13+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+0d4e69a6-d06e-49c5-a44d-0332c431fec4,cust_00264,2025-08-04 12:57:32+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+e55d22e9-e947-44f1-a303-066a824b3a0f,cust_00679,2025-08-04 20:34:53+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+3901cf13-7b44-421d-9479-f70ab920033e,cust_00277,2025-08-04 20:37:10+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+8d3ec3e8-8d70-4038-9ab2-eb27ee1e52b5,cust_00598,2025-08-05 07:53:29+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+7768fdfe-48ad-49e1-a333-8ad143ac2f68,cust_00409,2025-08-05 08:38:03+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+b68877ef-3b67-4d38-b38b-8d4a184c1387,cust_00071,2025-08-05 08:55:14+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+05073ca8-84a3-4c68-ad44-2fad1572013d,cust_00489,2025-08-05 15:23:23+00:00,Linking to Chime returns an error cod e102.,Chime account linking error,Negative,Account Linking & Chime Issues
+3dc15d8b-3f10-4970-af0a-b6bb47d115a0,cust_00280,2025-08-06 00:33:49+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+06a87994-9d14-4c3e-820a-67ee5ea16881,cust_00602,2025-08-06 01:38:57+00:00,Chime won’t connect even after multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+fb423b07-34a3-4634-a5bb-0c99ef161782,cust_00332,2025-08-06 09:48:04+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+74301a04-85cd-4bdd-8a8f-4f6458994f6c,cust_00706,2025-08-06 14:13:06+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+61896f83-0372-45d6-9e3e-bdf8c9235f0e,cust_00117,2025-08-06 14:49:20+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+aa171e9c-f30b-44cb-acd8-2f1612ceed5a,cust_00735,2025-08-06 17:05:16+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+36c921f4-8dc0-46fb-aa27-9faf97c1a63f,cust_00647,2025-08-06 18:42:50+00:00,The approval rules are unclear—got rejected aagin.,Unclear advance approval rules,Negative,Advance Application & Criteria
+a877044d-4198-4ed1-97e2-787e47c96edd,cust_00127,2025-08-07 02:36:57+00:00,Requirements seem too strict for samll advances.,Strict advance requirements,Negative,Advance Application & Criteria
+7defa347-17e5-4fab-9be7-138b143c2489,cust_00460,2025-08-07 11:46:44+00:00,Why is Chime link broken today?,Chime account linking broken,Negative,Account Linking & Chime Issues
+d099fbec-56ba-4463-9e60-e9bacbda885b,cust_00678,2025-08-07 22:42:06+00:00,Scrolling is laggy on Android 13.,Android 13 scrolling lag,Negative,User Interface & Performance
+6e14a8a5-af0f-4696-800f-4f51a8815ca7,cust_00706,2025-08-08 06:19:54+00:00,The new UI looks clean and easy to use.,New UI clean and easy,Positive,User Interface & Performance
+86b66e72-b462-44f9-8354-0a62f760e23b,cust_00827,2025-08-08 10:36:36+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+2d74e018-e1e4-4e2e-b7ff-1cb2d03596d8,cust_00189,2025-08-08 17:38:59+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+1aa9e002-c380-46d4-9947-69985cd4d690,cust_00689,2025-08-08 20:17:39+00:00,Stuck in an ID verification loop—keeps asking again.,ID verification loop issue,Negative,Identity & Verification Problems
+2dd1c3b3-2477-4b3f-9139-9dbd73ef9577,cust_00306,2025-08-08 21:26:20+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+76af653d-42aa-4e51-a400-4c32af8ea4bd,cust_00792,2025-08-09 01:18:40+00:00,I can't link m yChime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+ac2d78eb-975c-431c-8a6d-59de5e49fac2,cust_00385,2025-08-09 04:24:59+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+0808a256-897e-44bd-95a0-fe6948767897,cust_00784,2025-08-09 16:59:13+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+37426f83-ce1c-4c91-811e-f9eb33a35bd5,cust_00612,2025-08-09 19:58:54+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+12fa06be-fcc6-4a1a-aef9-2f19c8f65aa1,cust_00152,2025-08-09 22:21:17+00:00,The approval rules are unclear—got rejected again.,Unclear advance approval rules,Negative,Advance Application & Criteria
+533de83d-900c-4606-b92b-122224ff9219,cust_00164,2025-08-10 05:04:18+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+79b40bc2-bd27-47cc-8f76-e0fee3ba5da7,cust_00724,2025-08-10 15:39:49+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+98432b13-e2c7-449d-9019-12c793efa4c2,cust_00554,2025-08-10 20:43:16+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+51e9b974-cdb0-496d-965c-1dfbfda6428b,cust_00283,2025-08-11 04:38:03+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+5d7342cf-8366-4853-ab1e-8d7ba4cbf289,cust_00636,2025-08-11 22:32:50+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+cfd966a5-997f-4e85-80f2-0937a3886a41,cust_00649,2025-08-12 01:25:08+00:00,Chime connection keeps timing out during link.,Chime connection timing out,Negative,Account Linking & Chime Issues
+4cab85ed-0301-4312-84cc-252255697d4b,cust_00015,2025-08-12 02:45:25+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+c0f2c169-705a-44cf-b8a1-5642eb958b4c,cust_00001,2025-08-12 18:14:13+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+e5880a2f-7d2b-4db5-a2db-be6135bed87a,cust_00765,2025-08-12 22:46:05+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+02c046f0-d89c-4860-8963-d911e2f8b33b,cust_00454,2025-08-13 01:00:09+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+5245cf56-9a76-4e89-9ad3-9da8e96fb9c4,cust_00147,2025-08-13 04:00:47+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+c3a4c5a6-42dd-4ccc-ac55-6993008d3a56,cust_00558,2025-08-13 16:28:26+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+4e630a0c-2197-444f-b54f-1551a8797925,cust_00178,2025-08-13 17:32:20+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+55333ce6-4822-4305-8d46-62c1ea1d16ad,cust_00037,2025-08-13 20:31:52+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+1dc63b62-6664-4e24-a5a8-d7a9ac0648f7,cust_00419,2025-08-14 15:08:20+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+10d7aa57-b533-4b3a-92a9-ac4712b8d54e,cust_00483,2025-08-14 23:54:39+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+e1dc771a-dca0-4fb1-8a4c-7abef1e9490b,cust_00781,2025-08-15 00:50:36+00:00,I’m getting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+2ad47d6f-f57b-45a0-98e7-df0871e309e1,cust_00143,2025-08-15 01:57:20+00:00,Linking to Chime returns an error code 102.,Chime linking error code 102,Negative,Account Linking & Chime Issues
+08fe0d27-2986-404d-afbc-91d54e284cc5,cust_00250,2025-08-15 02:06:35+00:00,Stuck in an ID verifiaction loop—keeps asking again.,ID verification loop issue,Negative,Identity & Verification Problems
+e444a275-8b5c-4858-9c8e-96f912c043de,cust_00864,2025-08-15 03:17:27+00:00,"My ID got rejected, but the image was clear.",ID rejection despite clear image,Negative,Identity & Verification Problems
+92f68c16-452e-4ab4-a5c8-97f577778284,cust_00465,2025-08-15 05:31:57+00:00,I keep getting denied without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+5ab95594-f5fc-4d54-8207-ee88b5cccc27,cust_00750,2025-08-15 18:03:58+00:00,Chime won’t connect eve nafter multiple tries.,Chime account connection failure,Negative,Account Linking & Chime Issues
+401217f7-29a2-4a50-ac9b-6138c6804a23,cust_00312,2025-08-16 00:49:15+00:00,I’ mgetting multiple texts about the same payment.,Duplicate payment text notifications,Negative,Notifications & Support
+b14bbb79-8f69-4a85-998e-3a67878e2450,cust_00477,2025-08-16 03:39:32+00:00,Please clarify the approval criteria.,Clarification of approval criteria,Negative,Advance Application & Criteria
+fcec19df-c5d3-466f-916e-cc9400b88e5f,cust_00205,2025-08-16 06:40:54+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+1c97aabf-ce52-40e7-8378-332402f2920e,cust_00680,2025-08-16 11:51:30+00:00,Stop sending me repeated repayment notifications.,Duplicate repayment notifications,Negative,Notifications & Support
+9ef5ab27-b21e-4947-8b43-c64f5cef4874,cust_00219,2025-08-16 13:33:28+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+b81b3ecb-bfac-420a-84ee-8b5cbc222a8c,cust_00272,2025-08-16 13:44:03+00:00,Loving the instant access to cash—thanks!,Appreciation for instant cash,Positive,Notifications & Support
+cc2ffaea-9af5-4330-a12d-404662493475,cust_00353,2025-08-17 11:07:20+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+63d931c0-7ee9-4976-8c1c-329edd6bb960,cust_00869,2025-08-17 11:46:09+00:00,Thanks for the quick approval yesterday.,Appreciation for quick approval,Positive,Advance Application & Criteria
+031161ab-50ae-4b5e-958d-de4dad8559d2,cust_00807,2025-08-18 00:58:48+00:00,Crashes when I open the Advance screen.,App crashes on Advance screen,Negative,User Interface & Performance
+5a064d7a-1094-4758-b83d-99c34f831b00,cust_00463,2025-08-18 05:07:38+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+a976802d-8e6c-4927-80af-832b2841e439,cust_00824,2025-08-18 15:55:54+00:00,Can't pass identity check; it keeps resetting.,Identity check keeps resetting,Negative,Identity & Verification Problems
+0d361ddf-f1ea-4911-b999-20a415cf78ec,cust_00788,2025-08-19 01:09:30+00:00,Why does the selfie step repeat?,Repeated selfie verification step,Negative,Identity & Verification Problems
+82f6737c-d766-4c56-b629-44945c43e48f,cust_00611,2025-08-19 01:37:10+00:00,Way too many repayment reminders this week.,Excessive repayment reminders,Negative,Notifications & Support
+c233f3c7-0872-44ef-9cb0-0b365431598d,cust_00574,2025-08-19 05:18:50+00:00,Why was my advance denied? I meet the criteria.,Advance denied despite criteria,Negative,Advance Application & Criteria
+dcd39373-8a18-449b-a92c-a64460943149,cust_00195,2025-08-19 13:44:02+00:00,I keep getting deined without explanation.,Denied without explanation,Negative,Advance Application & Criteria
+0de98ca1-6b69-45c3-b94c-a756d242572c,cust_00764,2025-08-19 14:00:43+00:00,App is slow on my Android phone.,App slowness on Android,Negative,User Interface & Performance
+016b3073-1a71-4c78-b892-0bdf27afb124,cust_00330,2025-08-19 14:42:22+00:00,Chimew on’t connect even after multiple tries.,Chime account connection failed,Negative,Account Linking & Chime Issues
+e07caf50-b148-492c-a74d-3bfc5a230d02,cust_00018,2025-08-20 01:13:11+00:00,The reminders feel spammy.,Spammy advance reminders,Negative,Notifications & Support
+6f8fd5f0-a981-43f8-972e-c889ca7c5e53,cust_00816,2025-08-20 16:33:38+00:00,Performance is worse after the last update.,Performance issues post-update,Negative,User Interface & Performance
+3e63073b-5671-4e27-bd19-3ae1a20f02d9,cust_00782,2025-08-20 18:45:57+00:00,Please reduce the reminder frequency.,Reduce reminder frequency,Negative,Notifications & Support
+602226dc-4a94-4eb5-9bd5-9bd3bba716a5,cust_00088,2025-08-21 01:51:35+00:00,Thanks for teh quick approval yesterday.,Quick advance approval received,Positive,Advance Application & Criteria
+059bd08b-b530-4f55-8871-d4e6ff8a2bf8,cust_00228,2025-08-21 02:04:47+00:00,I can't link my Chime account. It fails at verification.,Chime account linking failure,Negative,Account Linking & Chime Issues
+9ddbaeec-4a95-49db-bb0c-2f2b42a43167,cust_00556,2025-08-21 14:03:33+00:00,Requirements seem too strict for small advances.,Strict advance requirements,Negative,Advance Application & Criteria
+eb971c33-43ba-470d-8d21-4a1eac686b65,cust_00072,2025-08-22 20:22:36+00:00,"Great app, the budgeting tips helped me.",Appreciation for budgeting tips,Positive,Notifications & Support

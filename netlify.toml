@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+# (optional) cache the data a bit
+[[headers]]
+  for = "/Outputs/*"
+  [headers.values]
+  Cache-Control = "public, max-age=300"

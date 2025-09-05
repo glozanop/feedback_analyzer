@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+Notebook/.ipynb_checkpoints/
+Notebook/*.checkpoint.ipynb
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+
+# Env
+.env
+*.env
+backend/.env
+frontend/.env.local
+
+# Data (keep big/raw data out of git)
+Data/
+data/
+*.parquet
+*.jsonl
+*.pickle
+*.pkl
+
+# CSVs are ignored by default…
+*.csv
+
+# …but keep the website’s published assets in Outputs/
+!Outputs/
+Outputs/**
+!Outputs/*.csv
+!Outputs/*.json
+!Outputs/*.png
+!Outputs/*.html

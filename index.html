@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback-Genie Analytics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+    </style>
+  <style>
+    /* Single-row, horizontally scrollable explainability strip (no page-level X scroll) */
+    #explainability-grid{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,1fr);gap:1rem;overflow-x:auto;padding-bottom:.5rem}
+    @media (min-width:1024px){#explainability-grid{grid-auto-columns:minmax(280px,1fr)}}
+    /* Keep only the first column (Message) visible inside the explainability tables */
+    #explainability-grid table{table-layout:fixed}
+    #explainability-grid th,#explainability-grid td{white-space:normal;word-wrap:break-word}
+    #explainability-grid th:nth-child(n+2),
+    #explainability-grid td:nth-child(n+2){display:none}
+  </style>
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen overflow-x-hidden">
+  <!-- Header -->
+  <header class="bg-purple-700 text-white h-20 md:h-24 flex items-center justify-center text-center shadow-lg sticky top-0 z-50">
+    <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight">Feedback-Genie Analytics</h1>
+  </header>
+
+  <!-- FILE:// warning banner (shown by data-binder.js if opened without a server) -->
+  <div id="file-warning" class="hidden bg-amber-100 border-b border-amber-300 text-amber-900 px-4 py-3 text-sm">
+    You're opening this file directly from disk (<code>file://</code>). Browsers block <code>fetch()</code> for local CSV/JSON, so tables will look empty. Run a tiny local server from the folder that contains this HTML:
+    <pre class="bg-white rounded-lg p-2 mt-2 overflow-x-auto">python3 -m http.server 8000
+# then visit
+http://localhost:8000/&lt;this-file-name&gt;.html</pre>
+    If your data lives in <code>Outputs/</code> next to this file, no more changes are needed.
+  </div>
+
+  <div class="flex flex-1 flex-col md:flex-row min-h-0">
+    <!-- Sidebar -->
+    <aside class="bg-slate-900 text-white w-full md:w-64 p-6 flex-shrink-0 shadow-lg sticky top-20 md:top-24 h-[calc(100vh-5rem)] md:h-[calc(100vh-6rem)] overflow-y-auto">
+      <ul class="space-y-4">
+        <li><a href="#themes-and-sentiment"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Themes and Sentiment</button></a></li>
+        <li><a href="#trends"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Trends</button></a></li>
+        <li><a href="#anomaly-detection"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Anomaly Detection</button></a></li>
+        <li><a href="#segmentations"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Usage Feedback Analysis</button></a></li>
+        <li><a href="#recommendations"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Recommendations</button></a></li>
+        <li><a href="#explainability"><button class="w-full text-left bg-transparent border border-gray-700 hover:bg-gray-800 focus:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">Theme Explainability</button></a></li>
+      </ul>
+    </aside>
+
+    <!-- Main -->
+    <main class="flex-1 px-6 py-4 overflow-y-auto overflow-x-hidden min-w-0 max-h-[calc(100vh-5rem)] md:max-h-[calc(100vh-6rem)]">
+      <!-- Top Theme Feedback Categories -->
+      <section class="mb-8" id="themes-and-sentiment">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Top Theme Feedback Categories</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div class="h-28 bg-purple-100 p-4 rounded-xl shadow-md flex items-center justify-center text-center min-w-0"><p class="px-2 break-words">Identity &amp; Verification Issues</p></div>
+          <div class="h-28 bg-purple-100 p-4 rounded-xl shadow-md flex items-center justify-center text-center min-w-0"><p class="px-2 break-words">Advance Approval Clarity</p></div>
+          <div class="h-28 bg-purple-100 p-4 rounded-xl shadow-md flex items-center justify-center text-center min-w-0"><p class="px-2 break-words">Chime Account Integration</p></div>
+          <div class="h-28 bg-purple-100 p-4 rounded-xl shadow-md flex items-center justify-center text-center min-w-0"><p class="px-2 break-words">App Performance &amp; Stability</p></div>
+          <div class="h-28 bg-purple-100 p-4 rounded-xl shadow-md flex items-center justify-center text-center min-w-0"><p class="px-2 break-words">Notification &amp; Feature Appreciation</p></div>
+        </div>
+      </section>
+
+      <!-- Recent Feedback -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Recent Feedback</h2>
+        <div class="bg-white rounded-xl shadow-md max-h-64 p-4 border border-gray-200 overflow-auto">
+          <table class="min-w-full table-fixed divide-y divide-gray-200">
+            <thead class="bg-gray-50 sticky top-0">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-28">Customer ID</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-40">Created At</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Message</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Concise Theme</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Sentiment</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Theme Category</th>
+              </tr>
+            </thead>
+            <tbody id="recent-feedback-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+            <caption id="recent-feedback-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded (likely due to <code>file://</code> restrictions).</caption>
+          </table>
+        </div>
+      </section>
+
+      <!-- Weekly Trends Graph -->
+      <section class="mb-8" id="trends">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Weekly Trends</h2>
+        <div class="bg-white p-4 rounded-xl shadow-md flex items-center justify-center">
+          <img id="weekly-trends-img" src="Outputs/trend_weekly_chart.png" alt="Weekly Trends Graph" class="w-full max-w-full h-auto rounded-lg" onerror="this.src='https://placehold.co/1200x500/eeeeee/000000/png?text=trend_weekly_chart.png+not+found'" />
+        </div>
+      </section>
+
+      <!-- Trend Summary -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Trend Summary</h2>
+        <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+          <p id="trend-summary" class="text-gray-700 leading-relaxed">Loading…</p>
+        </div>
+      </section>
+
+      <!-- Anomaly Detection Graph -->
+      <section class="mb-8" id="anomaly-detection">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Anomaly Detection</h2>
+        <div class="bg-white p-4 rounded-xl shadow-md flex items-center justify-center">
+          <img id="anomaly-img" src="Outputs/trend_weekly_chart_with_anomalies.png" alt="Anomaly Detection Graph" class="w-full max-w-full h-auto rounded-lg" onerror="this.src='https://placehold.co/1200x500/eeeeee/000000/png?text=trend_weekly_chart_with_anomalies.png+not+found'" />
+        </div>
+      </section>
+
+      <!-- Statistical Summary -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Statistical Summary</h2>
+        <div class="bg-white rounded-xl shadow-md p-4 border border-gray-200 overflow-auto">
+          <table class="min-w-full table-fixed divide-y divide-gray-200">
+            <thead class="bg-gray-50 sticky top-0" id="statistical-summary-thead"></thead>
+            <tbody id="statistical-summary-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+            <caption id="stats-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded (likely due to <code>file://</code> restrictions).</caption>
+          </table>
+        </div>
+      </section>
+
+      <!-- Segmentations -->
+      <section class="mb-8" id="segmentations">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Segmentations</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 overflow-hidden min-w-0">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">Negative Sentiment Ratio</h3>
+            <div class="relative overflow-auto max-h-64">
+              <table class="min-w-full table-fixed divide-y divide-gray-200">
+                <thead class="bg-gray-50 sticky top-0" id="neg-sentiment-thead"></thead>
+                <tbody id="neg-sentiment-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+                <caption id="neg-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded.</caption>
+              </table>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 overflow-hidden min-w-0">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">Segmentation by Approval Ratio</h3>
+            <div class="relative overflow-auto max-h-64">
+              <table class="min-w-full table-fixed divide-y divide-gray-200">
+                <thead class="bg-gray-50 sticky top-0" id="seg-approval-thead"></thead>
+                <tbody id="seg-approval-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+                <caption id="app-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded.</caption>
+              </table>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 overflow-hidden min-w-0">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">Segmentation by Spend</h3>
+            <div class="relative overflow-auto max-h-64">
+              <table class="min-w-full table-fixed divide-y divide-gray-200">
+                <thead class="bg-gray-50 sticky top-0" id="seg-spend-thead"></thead>
+                <tbody id="seg-spend-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+                <caption id="spend-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded.</caption>
+              </table>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 overflow-hidden min-w-0">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">Segmentation by Tier</h3>
+            <div class="relative overflow-auto max-h-64">
+              <table class="min-w-full table-fixed divide-y divide-gray-200">
+                <thead class="bg-gray-50 sticky top-0" id="seg-tier-thead"></thead>
+                <tbody id="seg-tier-tbody" class="bg-white divide-y divide-gray-200"></tbody>
+                <caption id="tier-empty" class="hidden text-sm text-gray-500 mt-2">No rows loaded.</caption>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendations -->
+      <section class="mb-8" id="recommendations">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Recommendations</h2>
+        <div id="recs" class="flex flex-col gap-8"></div>
+      </section>
+
+      <!-- Explainability -->
+      <section class="mb-8" id="explainability">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Explainability</h2>
+        <div id="explainability-grid" class="gap-4"></div>
+      </section>
+    </main>
+  </div>
+  <!-- Data binder (keep the file in the same folder as this HTML) -->
+  <script src="./data-binder.js"></script>
+  
+  <!-- Post-render tweaks so each explainability panel stays compact and inline -->
+  <script>
+    window.addEventListener('load', () => {
+      const grid = document.getElementById('explainability-grid');
+      const styleCards = () => {
+        if (!grid) return;
+        [...grid.children].forEach(card => {
+          card.classList.add('bg-white','p-4','rounded-xl','shadow-md','border','border-gray-200','overflow-hidden','min-w-[260px]','max-w-[320px]');
+          card.style.maxHeight = '16rem';
+          card.style.overflowY = 'auto';
+          const tables = card.querySelectorAll('table');
+          tables.forEach(t => {
+            t.classList.add('min-w-full','table-fixed');
+            t.querySelectorAll('th, td').forEach(cell => cell.classList.add('text-xs'));
+          });
+        });
+      };
+      // Run once and also when data-binder injects content
+      const mo = new MutationObserver(styleCards);
+      mo.observe(grid, { childList: true, subtree: true });
+      styleCards();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "theme_categories": [
+    {
+      "category_name": "Verification Issues",
+      "included_themes": [
+        "Selfie verification repeating issue",
+        "ID rejected despite clear image",
+        "Identity check reset issue",
+        "ID verification loop issue",
+        "Repeated selfie verification step",
+        "Verification failed multiple times",
+        "Identity check keeps resetting"
+      ]
+    },
+    {
+      "category_name": "Advance Product Functionality",
+      "included_themes": [
+        "Unclear advance approval rules",
+        "Strict advance requirements",
+        "Advance denied despite meeting criteria",
+        "Clarify approval criteria",
+        "Denied without explanation"
+      ]
+    },
+    {
+      "category_name": "App Performance & Stability",
+      "included_themes": [
+        "App crashes on Advance screen",
+        "App slow on Android",
+        "App freezes after login",
+        "App performance decreased after update",
+        "Android 13 scrolling lag",
+        "App performance after update"
+      ]
+    },
+    {
+      "category_name": "Account & Connection Errors",
+      "included_themes": [
+        "Chime connection timeout issue",
+        "Chime account connection failure",
+        "Chime linking error 102",
+        "Chime account linking issue",
+        "Chime account linking failed",
+        "Chime linking error code",
+        "Chime account connection failed",
+        "Chime account connection issue"
+      ]
+    },
+    {
+      "category_name": "Notifications & Positive Feedback",
+      "included_themes": [
+        "Helpful customer support",
+        "Appreciation for instant cash",
+        "New UI ease of use",
+        "Appreciation for budgeting tips",
+        "New UI is clean",
+        "Repeated repayment notifications",
+        "Excessive repayment reminders",
+        "Reduce reminder frequency",
+        "App reminders feel spammy",
+        "Duplicate payment notification texts",
+        "Helpful budgeting tips",
+        "Quick advance approval appreciated",
+        "Duplicate payment notifications received",
+        "Appreciation for quick approval"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "theme_categories": [
+    {
+      "category_name": "Advance Application & Criteria",
+      "included_themes": [
+        "Unclear advance approval rules",
+        "Strict advance requirements",
+        "Advance denied despite criteria",
+        "Clarification of approval criteria",
+        "Denied without explanation",
+        "Appreciation for quick approval",
+        "Quick advance approval received"
+      ]
+    },
+    {
+      "category_name": "Account Linking & Chime Issues",
+      "included_themes": [
+        "Chime connection timing out",
+        "Chime account connection failure",
+        "Chime linking error code 102",
+        "Chime account linking broken",
+        "Chime account linking failure",
+        "Chime account connection failed",
+        "Chime account linking error"
+      ]
+    },
+    {
+      "category_name": "User Interface & Performance",
+      "included_themes": [
+        "New UI clean and easy",
+        "App crashes on Advance screen",
+        "App slowness on Android",
+        "App freezes after login",
+        "New UI easy to use",
+        "Android 13 scrolling lag",
+        "Performance issues post-update",
+        "App performance degraded after update"
+      ]
+    },
+    {
+      "category_name": "Identity & Verification Problems",
+      "included_themes": [
+        "Repeated selfie verification step",
+        "ID rejection despite clear image",
+        "Identity check keeps resetting",
+        "ID verification loop issue",
+        "Verification failed multiple times",
+        "Identity check repeatedly fails"
+      ]
+    },
+    {
+      "category_name": "Notifications & Support",
+      "included_themes": [
+        "Helpful customer support",
+        "Appreciation for instant cash",
+        "Appreciation for budgeting tips",
+        "Duplicate repayment notifications",
+        "Excessive repayment reminders",
+        "Reduce reminder frequency",
+        "Spammy advance reminders",
+        "Duplicate payment text notifications",
+        "Budgeting tips appreciated",
+        "Customer support helpfulness"
+      ]
+    }
+  ]
+}

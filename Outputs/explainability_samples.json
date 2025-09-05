@@ -1,0 +1,137 @@
+{
+  "Identity & Verification Problems": [
+    {
+      "message": "Stuck in an ID verification loop\u2014keeps askign again.",
+      "sentiment": "Negative",
+      "concise_theme": "ID verification loop issue"
+    },
+    {
+      "message": "My ID got rejected, but the image was clear.",
+      "sentiment": "Negative",
+      "concise_theme": "ID rejection despite clear image"
+    },
+    {
+      "message": "My ID got rejected, but the image was clear.",
+      "sentiment": "Negative",
+      "concise_theme": "ID rejection despite clear image"
+    },
+    {
+      "message": "Why does the selfie step repeat?",
+      "sentiment": "Negative",
+      "concise_theme": "Repeated selfie verification step"
+    },
+    {
+      "message": "Verification failed 3 times\u2014what should I do?",
+      "sentiment": "Negative",
+      "concise_theme": "Verification failed multiple times"
+    }
+  ],
+  "Notifications & Support": [
+    {
+      "message": "Stop sending me repeated repayment notifications.",
+      "sentiment": "Negative",
+      "concise_theme": "Duplicate repayment notifications"
+    },
+    {
+      "message": "Stop sending me repeated repayment notifications.",
+      "sentiment": "Negative",
+      "concise_theme": "Duplicate repayment notifications"
+    },
+    {
+      "message": "Stop sending me repeated repayment notifications.",
+      "sentiment": "Negative",
+      "concise_theme": "Duplicate repayment notifications"
+    },
+    {
+      "message": "I\u2019m getting multiple texts about the same payment.",
+      "sentiment": "Negative",
+      "concise_theme": "Duplicate payment text notifications"
+    },
+    {
+      "message": "Please reduce the reminder frequency.",
+      "sentiment": "Negative",
+      "concise_theme": "Reduce reminder frequency"
+    }
+  ],
+  "Advance Application & Criteria": [
+    {
+      "message": "Requirements seem too strict for small advances.",
+      "sentiment": "Negative",
+      "concise_theme": "Strict advance requirements"
+    },
+    {
+      "message": "Requirements seem too strict for small advances.",
+      "sentiment": "Negative",
+      "concise_theme": "Strict advance requirements"
+    },
+    {
+      "message": "Why was my advance denied? I meet the criteria.",
+      "sentiment": "Negative",
+      "concise_theme": "Advance denied despite criteria"
+    },
+    {
+      "message": "I keep getting denied without explanation.",
+      "sentiment": "Negative",
+      "concise_theme": "Denied without explanation"
+    },
+    {
+      "message": "Please clarify the approval criteria.",
+      "sentiment": "Negative",
+      "concise_theme": "Clarification of approval criteria"
+    }
+  ],
+  "User Interface & Performance": [
+    {
+      "message": "Crashes when I open the Advance screen.",
+      "sentiment": "Negative",
+      "concise_theme": "App crashes on Advance screen"
+    },
+    {
+      "message": "App is slow on my Android phone.",
+      "sentiment": "Negative",
+      "concise_theme": "App slowness on Android"
+    },
+    {
+      "message": "Performance is worse after the last update.",
+      "sentiment": "Negative",
+      "concise_theme": "Performance issues post-update"
+    },
+    {
+      "message": "Crashes when I open the Advance screen.",
+      "sentiment": "Negative",
+      "concise_theme": "App crashes on Advance screen"
+    },
+    {
+      "message": "Crashes when I open the Advance screen.",
+      "sentiment": "Negative",
+      "concise_theme": "App crashes on Advance screen"
+    }
+  ],
+  "Account Linking & Chime Issues": [
+    {
+      "message": "Chimew on\u2019t connect even after multiple tries.",
+      "sentiment": "Negative",
+      "concise_theme": "Chime account connection failed"
+    },
+    {
+      "message": "Linking to Chime returns an error code 102.",
+      "sentiment": "Negative",
+      "concise_theme": "Chime linking error code 102"
+    },
+    {
+      "message": "Linking to Chime returns an error cod e102.",
+      "sentiment": "Negative",
+      "concise_theme": "Chime account linking error"
+    },
+    {
+      "message": "Chime won\u2019t connect even after multiple tries.",
+      "sentiment": "Negative",
+      "concise_theme": "Chime account connection failure"
+    },
+    {
+      "message": "Linking to Chime returns an error code 102.",
+      "sentiment": "Negative",
+      "concise_theme": "Chime linking error code 102"
+    }
+  ]
+}
